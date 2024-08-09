@@ -1,7 +1,7 @@
 name: S3 deploy with cloud front
 
 on:
-  pull_request:
+  push:
     branches:
       - product
 
